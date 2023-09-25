@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
+
+/* ### Primary */
+/* ### Primary */
+/* ### Neutral */
+/* ### Neutral */
+/* ### Neutral */
+:root {
+  --Dark_cyan: hsl(158, 36%, 37%);
+  --Cream: hsl(30, 38%, 92%);
+  --Very_dark_blue: hsl(212, 21%, 14%);
+  --Dark_grayish_blue: hsl(228, 12%, 48%);
+  --White: hsl(0, 0%, 100%);
+}
+
+.font-F {
+  font-family: "Fraunces", serif;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  height: 100vh;
+  margin: 0;
+  padding: 24px;
+  background-color: var(--Cream);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  font-size: 14px;
+  margin: 0;
+}
+
+.frame {
+  width: 100%;
+}
+
+.picPart {
+  width: 100%;
+}
+
+.imgDesktop {
+  display: none;
+}
+
+.imgMobile {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px 15px 0 0;
+}
+
+.contentPart {
+  width: 100%;
+  box-sizing: border-box;
+  background-color: var(--White);
+  padding: 32px;
+  border-radius: 0 0 15px 15px;
+  color: var(--Dark_grayish_blue);
+}
+
+.headerContent {
+  letter-spacing: 4px;
+}
+
+.nameContent {
+  color: var(--Very_dark_blue);
+  line-height: 100%;
+}
+
+.detailContent {
+  line-height: 170%;
+}
+
+.price {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.discounted {
+  color: var(--Dark_cyan);
+}
+
+.realPrice {
+  text-decoration: line-through;
+}
+
+button {
+  border: 0;
+  width: 100%;
+  padding: 12px;
+  background-color: var(--Dark_cyan);
+  border-radius: 8px;
+  color: var(--White);
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+/* 
+Mobile: 375px
+Desktop: 1440px
+*/
+@media (min-width: 567px) {
+  body {
+    padding: 0;
+  }
+
+  .frame {
+    width: 580px;
+    display: flex;
+  }
+
+  .picPart {
+    width: 50%;
+  }
+
+  .imgDesktop {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px 0 0 15px;
+  }
+
+  .imgMobile {
+    display: none;
+  }
+
+  .contentPart {
+    width: 50%;
+    border-radius: 0 15px 15px 0;
+  }
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
