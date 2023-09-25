@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [product-preview-card-component](https://your-live-site-url.com)
+- Live Site URL: [product-preview-card-component](https://mpluggie7.github.io/femt-product-preview-card-component/)
 
 ## My process
 
