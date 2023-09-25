@@ -1,6 +1,6 @@
 # Frontend Mentor - Product preview card component solution
 
-This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -49,8 +49,15 @@ Users should be able to:
 I've learned to switch the image for desktop and mobile by using the display styles. When it doesn't show let it display=none and wants to show let display=block or any value.
 
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.imgDesktop {
+  display: none;
+}
+
+.imgMobile {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px 15px 0 0;
 }
 ```
 
